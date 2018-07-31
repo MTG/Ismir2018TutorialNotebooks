@@ -34,6 +34,8 @@ Then, you can access the notebooks from the browser and run them.
 * tuningAnalysis_SingleRecording.ipynb: case study for tuning analysis of a single recording in makam Huseyni
 * tuningAnalysis_SetOfRecordings.ipynb: tuning analysis for a set of recordings from the same mode
 * visualizeAnnotations.ipynb: visualizing manual annotations of Saraga dataset and performing some rhythm analysis tasks
-...
+* symbolicDataPro_symbTr.ipynb: accessing pieces in a specific form and makam from the Turkish Makam Music Symbolic Data Collection (SymbTr), reading a specific a section of the form and ploting the melodic curves
+
+
 
 

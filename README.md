@@ -36,6 +36,6 @@ Then, you can access the notebooks from the browser and run them.
 * visualizeAnnotations.ipynb: visualizing manual annotations of Saraga dataset and performing some rhythm analysis tasks
 * symbolicDataPro_symbTr.ipynb: accessing pieces in a specific form and makam from the Turkish Makam Music Symbolic Data Collection (SymbTr), reading a specific a section of the form and ploting the melodic curves
 
-
+The presentation file (IsmirTutorial2018_BBozkurt_presentation.pdf) is also available within this repository. 
 
 

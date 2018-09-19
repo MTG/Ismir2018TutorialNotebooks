@@ -4,7 +4,7 @@
 
 Jupyter notebooks for Ismir-2018 tutorial titled "Computational approaches for analysis of non-Western music traditions" by Serra, Clayton and Bozkurt
 
-To run a Jupyter server, a docker file is used. 
+To run a Jupyter server, we use docker.
 
 ## Install docker
 
@@ -17,12 +17,19 @@ https://docs.docker.com/docker-for-mac/install/
 ### Ubuntu
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce
 
-## Run 
-First run the following command:
-```
-docker-compose up
-```
-Then accesss localhost:8888 on your browser and when asked for a password use _mir_
+## Run
+In a terminal/console window, change to this directory
+
+On MacOS or Windows, run:
+
+    docker-compose up
+
+On Linux, run the following (this command ensures that any files you create are owned by your own user):
+
+    JUPYTER_USER_ID=$(id -u) docker-compose up
+
+Then accesss http://localhost:8888 with your browser and when asked for a
+password use _mir_
 
 Then, you can access the notebooks from the browser and run them.
 
@@ -36,6 +43,6 @@ Then, you can access the notebooks from the browser and run them.
 * visualizeAnnotations.ipynb: visualizing manual annotations of Saraga dataset and performing some rhythm analysis tasks
 * symbolicDataPro_symbTr.ipynb: accessing pieces in a specific form and makam from the Turkish Makam Music Symbolic Data Collection (SymbTr), reading a specific a section of the form and ploting the melodic curves
 
-The presentation file (IsmirTutorial2018_BBozkurt_presentation.pdf) is also available within this repository. 
+The presentation file (IsmirTutorial2018_BBozkurt_presentation.pdf) is also available within this repository.
 
 

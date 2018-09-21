@@ -6,3 +6,5 @@ services:
       - "8888:8888"
     volumes:
       - .:/notebooks
+    environment:
+      - JUPYTER_USER_ID=$JUPYTER_USER_ID

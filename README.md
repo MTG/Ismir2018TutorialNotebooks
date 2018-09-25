@@ -1,7 +1,7 @@
 # Ismir2018TutorialNotebooks
 
 Jupyter notebooks for Ismir-2018 tutorial titled "Computational approaches for analysis of non-Western music traditions" by Serra, Clayton and Bozkurt. 
-http://ismir2018.ircam.fr/pages/events-tutorial-09.html
+https://www.upf.edu/web/mtg/non-western-music-tutorial
 
 To run a Jupyter server, we use docker.
 
@@ -42,6 +42,6 @@ Then, you can access the notebooks from the browser and run them.
 * formExpSubsets4ModeRecognition.ipynb: forms the subsets by grouping recordings with respect to mode or rhythm mode while also checking available files (ex: tonic annotation) for the recording
 * symbolicDataPro_symbTr.ipynb: accessing pieces in a specific form and makam from the Turkish Makam Music Symbolic Data Collection (SymbTr), reading a specific a section of the form and ploting the melodic curves
 
-The presentation files will also be shared soon within this repository.
+The presentation files are available on: https://www.upf.edu/web/mtg/non-western-music-tutorial.
 
 
